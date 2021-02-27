@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Village Pita Bakery</title>
+  <link rel="icon" type="image/png" href="images/villagepitaicon.png" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <div id="main">
+
+    <div id="header">
+      <div id="flex-container">
+          <div class="flex-item item-one">
+            <a href="#menu" class="menu-option" id="nav-menu">Menu</a>
+          </div>     
+          <a href="index.html"><img src="images/villagepita.png" alt="logo" id="logo" class="flex-item item-two"></a>
+          <div class="flex-item item-three">
+            <a href="#contact" class="menu-option" id="nav-contact">Contact</a>
+          </div>  
+      </div>
+    </div>  
+
+    <div class="slideshow-container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/cheesepie.png" style="width:100%" class="slider-image">
+            <div class="caption">Cheese Pie</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/meatpie.jpg" style="width:100%" class="slider-image">
+            <div class="caption">Meat Pie</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/tab6.jpg" style="width:100%" class="slider-image">
+            <div class="caption">Tabouleh Salad</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next" id="next"></div>
+        <div class="swiper-button-prev" id="prev"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="menu">
+
+      <h1>Menu</h1>
+
+      <section id="pita-pies">
+        <h2>Pita Pies</h2>
+
+        <div class = "menu-item">
+          <h3>Meat Pie - $4</h3>
+          <p id="yes">Lean ground beef, ground tomatoes & onions, signature spices</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Spinach & Feta - $4.50 (Add chicken $10.95)</h3>
+          <p>Chopped spinach, onion puree, olive oil, lemons, spices, topped with feta</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Cheese Pie - $4.75</h3>
+          <p>Signature mix of 5 Mediterranean cheeses</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Potato Pie - $5 (Add beef $6)</h3>
+          <p>Shredded potato with finely chopped parsely and light Mediterranean
+            spices</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Zaatar Pie - $3</h3>
+          <p>Thyme, oregano, sumac, mixed with olive oil</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Labneh Pie - $5</h3>
+          <p>Mediterranean sour cream cheese mixed with a smudge of ground beef
+          and mint leaves</p>
+        </div>
+      
+        <div class = "menu-item">
+          <h3>Fatayer (Meat or Spinach) - $10.99/Dz</h3>
+        </div>
+        <div class = "menu-item add-on">
+          <h3>Add to your pie:</h3>
+          <h5>5 Cheese blend - $2.50</h5>
+          <h5>Veggies - $2.50</h5>
+          <h5>Mozzarella cheese - $1.50</h5>
+        </div>
+      </section>
+
+      <section id="sandwiches">
+
+        <h2>Sandwiches</h2>
+        <div class = "menu-item">
+          <h3>Chicken Pocket - $8.95</h3>
+          <p>Chicken marinated in spices then baked in fresh dough filled with
+          veggies, tahini and garlic sauce</p>
+        </div>
+        <div class = "menu-item">
+          <h3>Steak & Cheese - $8.95</h3>
+          <p>Cut up top sirloin beef marinated in spices, with mozzarella cheese
+          and steak sauce</p>
+        </div>
+        <div class = "menu-item">
+          <h3>Falafel Sandwich - <span class="prices">Small</span> $7.50 <span class="prices">Large </span>$8.50</span> </h3>
+        </div>
+      </section>
+
+      <section id="salads-dips">
+        <h2>Salads & Dips</h2>
+
+        <div class = "menu-item salad-price">
+          <h3>(<span class="prices">Small</span> $3.75 <span class="prices">Large</span> $7.95)</h3>
+        </div>
+
+        <div class = "menu-item tabouli">
+          <h3>Tabouli Salad</h3>
+          <p>Finely chopped parsely and tomatoes, bulgar wheat,
+            olive oil and lemon juice</p>
+        </div>
+
+        <div class = "menu-item">
+          <h3>Garlic Hummus</h3>
+        </div>
+
+        <div class = "menu-item">
+          <h3>Spicy Hummus</h3>
+        </div>
+
+        <div class = "menu-item">
+          <h3>Eggplant Dip</h3>
+        </div>
+      </section>
+
+      <section id="desserts">
+        <h2>Desserts</h2>
+
+        <div class = "menu-item">
+          <h3>Baklawa</h3>
+        </div>
+
+        <div class = "menu-item">
+          <h3>Atayif</h3>
+        </div>
+      </section>
+
+      <section id="catering">
+        <h2>Catering<h2>
+        <h3>Contact us to customize your own party platters!</h3>
+      </section>
+    </div>
+  </div>
+
+  <section id="contact-container">
+    <div id="contact">
+
+      <h2 id="reach">Reach Us</h2>
+
+      <div id="hours">
+        <table id="opening-hours">
+          <thead>
+            <tr> <th> Days </th> <th> Hours </th> </tr>
+          </thead>
+          <tr>
+            <td>Monday to Saturday</td>
+            <td>8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+        </table>
+        <div id="info">
+          <div id="social-media">
+            <a id="fb-link" href="https://www.facebook.com/Village-Pita-Bakery-132853543405033/">
+              <img src="images/fbicon.png" alt="facebook link" width="50px" height="50px">
+            </a>
+          </div>
+          <p id="address">
+            <svg id="phone-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z" fill="currentColor" /><path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="currentColor" /><path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="currentColor" /></svg>
+            <b>(403) 273-0330</b> <br>
+            <svg id="map-pin" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2721 10.2721C16.2721 12.4813 14.4813 14.2721 12.2721 14.2721C10.063 14.2721 8.27214 12.4813 8.27214 10.2721C8.27214 8.06298 10.063 6.27212 12.2721 6.27212C14.4813 6.27212 16.2721 8.06298 16.2721 10.2721ZM14.2721 10.2721C14.2721 11.3767 13.3767 12.2721 12.2721 12.2721C11.1676 12.2721 10.2721 11.3767 10.2721 10.2721C10.2721 9.16755 11.1676 8.27212 12.2721 8.27212C13.3767 8.27212 14.2721 9.16755 14.2721 10.2721Z" fill="currentColor" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.79417 16.5183C2.19424 13.0909 2.05438 7.39409 5.48178 3.79417C8.90918 0.194243 14.6059 0.054383 18.2059 3.48178C21.8058 6.90918 21.9457 12.6059 18.5183 16.2059L12.3124 22.7241L5.79417 16.5183ZM17.0698 14.8268L12.243 19.8965L7.17324 15.0698C4.3733 12.404 4.26452 7.97318 6.93028 5.17324C9.59603 2.3733 14.0268 2.26452 16.8268 4.93028C19.6267 7.59603 19.7355 12.0268 17.0698 14.8268Z" fill="currentColor" /> </svg>
+            #208 255 28th street S.E. <br>
+            Calgary, Alberta
+          </p>
+        </div>
+      </div>
+
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1
+        d10032.675437065218!2d-113.9939228!3d51.0499698!3m2!1i1024!2i768!
+        4f13.1!3m3!1m2!1s0x0%3A0x2be771d437858eb9!2sVillage%20Pita%20Bake
+        ry%20Ltd!5e0!3m2!1sen!2sca!4v1589939385137!5m2!1sen!2sca"
+        width="450" height="310" frameborder="1" style="border:0;"
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script>
+</body>
+</html>
